@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Maidah Tayyab\'s CV</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Maidah Tayyab</string>
+    <string name="resume_title">Student</string>
+    <string name="user_address">Lahore,Pakistan </string>
+    <string-array name="home">
+        <item>Home</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="email">mtayyab.maidah@gmail.com</string>
+    <string name="Address">Lahore, Pakistan</string>
+    <string name="description">Description</string>
+    <string name="AboutMe_Title">About Me</string>
+    <string name="Question1">Career Goal</string>
+    <string name="Question2">Ownership</string>
+    <string name="experience">Experience</string>
+    <string name="hands_on_skills">Skills</string>
+    <string name="phoneNumber">+923349819083</string>
+    <string name="Linkedin_IdLink">https://www.linkedin.com/in/maidag-tayyab-6a5973194/</string>
+    <string name="Linkedin_UserName">maidahtayyab</string>
+    <string name="Github_UserName">maidahtayyab</string>
+    <string name="Github_IdLink">https://github.com/maidahtayyab</string>
+    <string name="ieee_link">https://ieeexplore.ieee.org/document/7840114</string>
+    <string name="StackOverFlow_UserName">maidahtayyab</string>
+    <string name="stackOverFlow_IdLink">https://stackoverflow.com/users/12127004/maidah-tayyab</string>
+    <string name="education">Education</string>
+    <string name="answer"> Most people consider the sky as their limit. But me, I wish to go beyond the stars and into the world of infinite knowledge. My goal is to be the best at what I do. </string>
+    <string name="answer1">I am a believer that if you want something in life and you truly strive for it, one day you surely will get it. Knowledge of the computer is my aim, right now, and I do the utmost hardwork everyday to be the best at it. </string>
+    <string name="experience_title">Volunteer</string>
+    <string name="experience_description">"\u2713 Team Leader - Rizq \n""\u2713 Rizq Digital Media Team \n"</string>
+    <string name="why_i_did_choose_work_1">"\u2713 Rizq began as any other extra-curricular activity to me but as I progressed this so called job turned into my most favorite activity. It gave me pleasure and it gave me peace.</string>
+    <string name="year11">(2019)</string>
+    <string name="experience_year1">(year)</string>
+    <string name="year">(2019)</string>
+
+    <string name="year2">(2019)</string>
+    <string name="todo">TODO</string>
+    <string name="email_title">Email</string>
+    <string name="address_title">Address</string>
+    <string name="phone_number_title">Phone Number</string>
+    <string name="professional_links_title">Professional Links</string>
+    <string name="linkedin_title">Linkedin</string>
+    <string name="twitter_title">Twitter</string>
+    <string name="stack_overflow_title">Stack Overflow</string>
+    <string name="github_title">Github</string>
+    <string name="matric_title">Matric &amp; Inter</string>
+    <string name="college_title">Lahore College for Women</string>
+    <string name="graduation_title">Bachelors in Computer Sciences Bs(Cs) </string>
+    <string name="university_title">National University College of Computer and Emerging Sciences Lahore </string>
+    <string name="degree_title1">IEEE</string>
+    <string name="degree_title2">Degree Title</string>
+    <string name="degree_title3">Degree Title</string>
+    <string name="school_year">(2014)</string>
+    <string name="matric_year">(2011 – 2016)</string>
+    <string name="university_year">(2016 – 2020)</string>
+    <string name="Cgpa"></string>
+    <string name="certification_courses_title">Publications</string>
+    <string name="institute_title">A parametric effort estimation model for mobile apps</string>
+    <string name="institute_year">(2016)</string>
+    <string name="grades">(grades)</string>
+    <string name="institute_title1">Institute Title</string>
+    <string name="institude_year1">(year)</string>
+    <string name="grades1">(grades)</string>
+    <string name="institute_title2">Institute Title</string>
+    <string name="institute_year2">(year)</string>
+    <string name="grades2">(grades)</string>
+    <string name="skill_title_1">Android</string>
+    <string name="skill_title_2">Java</string>
+    <string name="skill_title_3">Web Development</string>
+    <string name="skill_title_4">Nodejs</string>
+    <string name="skill_title_5">Python</string>
+    <string name="projects_title">Projects</string>
+    <string name="why_i_did_choose_above_title_0">Why above:</string>
+    <string name="why_i_did_choose_above_title_1">Why did I choose this internship:</string>
+    <string name="company_name1">RIZQ</string>
+    <string name="experience_time1">July 2015 - today</string>
+    <string name="worked_with_title">Worked With:</string>
+    <string name="worked_on2">Worked On:</string>
+    <string name="worked_on3">Worked On:</string>
+    <string name="awardTitle1">abc</string>
+    <string name="schoolname1">Lahore Grammar School Defence</string>
+    <string name="awardYear1">20??</string>
+    <string name="honorsandawards">Honors &amp; Awards</string>
+
+
+
+</resources>
