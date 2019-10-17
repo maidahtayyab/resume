@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ahmad.cv.base"
+4    android:targetSandboxVersion="2"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:5:5-69
+12-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:5:22-66
+13
+14    <application
+14-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:6:5-56:19
+15        android:allowBackup="true"
+15-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:11:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:12:9-40
+24        <activity
+24-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:13:9-52:20
+25            android:name="com.ahmad.cv.activities.ScrollingActivity"
+25-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:14:13-69
+26            android:label="@string/app_name"
+26-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:15:13-45
+27            android:theme="@style/AppTheme.NoActionBar" >
+27-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:16:13-56
+28            <meta-data
+28-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:17:13-19:64
+29                android:name="default-url"
+29-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:18:17-43
+30                android:value="http://www.resume.com/resume" />
+30-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:19:17-61
+31
+32            <intent-filter>
+32-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:21:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:22:17-69
+33-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:24:17-77
+35-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37            <intent-filter android:autoVerify="true" >
+37-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:28:13-38:29
+37-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:28:28-53
+38                <action android:name="android.intent.action.VIEW" />
+38-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:29:17-69
+38-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.DEFAULT" />
+40-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:31:17-76
+40-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:31:27-73
+41                <category android:name="android.intent.category.BROWSABLE" />
+41-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:32:17-78
+41-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:32:27-75
+42
+43                <data
+43-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:34:17-37:54
+44                    android:host="shahwaiz90.github.io"
+44-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:36:21-56
+45                    android:pathPattern="/resume/"
+45-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:37:21-51
+46                    android:scheme="https" />
+46-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:35:21-43
+47            </intent-filter>
+48            <intent-filter>
+48-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:39:13-49:29
+49                <action android:name="android.intent.action.VIEW" />
+49-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:29:17-69
+49-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:29:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:31:17-76
+51-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:31:27-73
+52                <category android:name="android.intent.category.BROWSABLE" />
+52-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:32:17-78
+52-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:32:27-75
+53
+54                <data
+54-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:34:17-37:54
+55                    android:host="shahwaiz90.github.io"
+55-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:36:21-56
+56                    android:pathPattern="/resume"
+56-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:37:21-51
+57                    android:scheme="http" />
+57-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:35:21-43
+58            </intent-filter>
+59        </activity>
+60
+61        <meta-data
+61-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:53:9-55:57
+62            android:name="preloaded_fonts"
+62-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:54:13-43
+63            android:resource="@array/preloaded_fonts" />
+63-->/Users/mac/AndroidStudioProjects/Personal-Resume-master/base/src/main/AndroidManifest.xml:55:13-54
+64
+65        <provider
+65-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/72ef2471cff6521fb1610293ca3f6fa6/jetified-typer-roboto-2.0.0/AndroidManifest.xml:28:9-31:40
+66            android:name="com.rhexgomez.typer.common.TyperProvider"
+66-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/72ef2471cff6521fb1610293ca3f6fa6/jetified-typer-roboto-2.0.0/AndroidManifest.xml:29:13-68
+67            android:authorities="com.ahmad.cv.base.com.rhexgomez.typer.roboto"
+67-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/72ef2471cff6521fb1610293ca3f6fa6/jetified-typer-roboto-2.0.0/AndroidManifest.xml:30:13-78
+68            android:exported="false" />
+68-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/72ef2471cff6521fb1610293ca3f6fa6/jetified-typer-roboto-2.0.0/AndroidManifest.xml:31:13-37
+69        <provider
+69-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/06fabaff0136dc104f3954eeb4c977d3/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+70            android:name="com.squareup.picasso.PicassoProvider"
+70-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/06fabaff0136dc104f3954eeb4c977d3/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+71            android:authorities="com.ahmad.cv.base.com.squareup.picasso"
+71-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/06fabaff0136dc104f3954eeb4c977d3/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+72            android:exported="false" />
+72-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/06fabaff0136dc104f3954eeb4c977d3/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+73    </application>
+74
+75</manifest>
